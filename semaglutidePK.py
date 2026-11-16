@@ -1,6 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
-
+# ===== Shared model parameters =====
+ke = 0.0039
+V = 10.8
+Mw = 4113.6
+Ffree = 0.01
 # ===== choose product: 'Ozempic' or 'Wegovy' =====
 drug = 'Ozempic'
 #drug = 'Wegovy'
